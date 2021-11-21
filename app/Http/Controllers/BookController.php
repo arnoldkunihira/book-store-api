@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreBookRequest;
-use App\Http\Requests\UpdateBookRequest;
 use App\Models\Book;
+use App\Http\Requests\Book\StoreBookRequest;
+use App\Http\Requests\Book\UpdateBookRequest;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class BookController extends Controller
