@@ -1,6 +1,7 @@
 # Book Store API Application
 
 A simple application that implements one-to-Many and Many-to-Many relationships within a database management system.
+The logical flow is *Every book belongs to one publisher, so you will be able to assign a book to a specific publisher or if you can not find it you can store a new publisher in the database. Besides that, you can store authors in the authors’ table and include one of them or multiple of them in a book as the author’s name.*
 
 REQUIREMENTS
 ------------
